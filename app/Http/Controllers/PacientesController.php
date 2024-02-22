@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Resources\PacientesCollection;
+use App\Http\Resources\PacientesResource;
 use App\Models\Pacientes;
 use Illuminate\Http\Request;
 use Validator;
